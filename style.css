@@ -1,0 +1,210 @@
+header{
+    background-image: url(./bg_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap{
+    background: rgb(21, 116, 49);
+    border: none;
+    padding: 70px;
+    margin-bottom: 100px;
+}
+.wrap a{
+    color: white;
+
+
+}
+main {
+    color: white;
+    
+}
+main .about{
+    padding-top: 85px;
+}
+main .about img{
+    margin: 50px 0 30px 450px;
+}
+
+main .about h1{
+    line-height: 100px;
+    font-weight: 400;
+}
+.professional h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.progress{
+    margin-bottom: 50px;
+}
+section{
+    background: #f8f9f9;
+}
+.skills img{
+    margin-left: 255px;
+}
+.professional{
+    margin-top: 150px;
+}
+
+.Green{
+background: #007d2f;
+}
+.progress-bar{
+    background: #007d2f !important;
+    width: 75%;
+    height: 3px;
+}
+.complete{
+    text-align: center;
+    justify-content: center;
+}
+.hours{
+    text-align: center;
+    justify-content: center;
+}
+.positive{
+    text-align: center;
+    justify-content: center;
+}
+.happy{
+    text-align: center;
+    justify-content: center;
+}
+.Green p{
+color: #ffffff;
+font-size: 20px;
+font-weight: 500;
+}
+.Green h3{
+   color: #ffffff; 
+   font-size: 15px;
+}
+
+
+.item_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.item_img:hover .item_hover{
+    transform: scale(1);
+}
+.item_img img{
+    width: 100%;
+    height: 100%;
+
+}
+.item_img .item_hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(19, 22, 20, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: 500ms;
+
+}
+.item_hover{
+    font-size: 40px;
+    color: #ffffff;
+}
+.work{
+    background: #007d2f;
+    text-align: center;
+}
+.work p{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.our{
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.our p{
+    color: #787878;
+    width: 500px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.player{
+    background: #f5f5f5;
+}
+.player p{
+ color: #787878;
+ line-height: 20px;
+}
+.player h3{
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wraps{
+    padding-top: 50px;
+}
+.player img{
+    padding-bottom: 20px;
+}
+.silly{
+    width: 500px;
+    height: 500px;
+    padding-top: 120px;
+}
+.di{
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+    color: #ffffff;
+}
+.m{
+    color: #fff;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.yashil{
+    padding-top: 120px;
+}
+.greend{
+    padding-top: 120px;
+}
+
+
+
+.need{
+    background: #f5f5f5;
+}
+.title p{
+    color: #787878;
+    width: 550px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.form-control{
+    
+    width: 690px;
+    margin: 20px auto;
+}
+button{
+    background: #007d2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+footer{
+    background: var(--white);
+    
+}
